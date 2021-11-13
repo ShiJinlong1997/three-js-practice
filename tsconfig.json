@@ -4,9 +4,6 @@
     "target": "esnext",
     "module": "esnext",
     "baseUrl": ".",
-    "paths": {
-      "*": ["node_modules/*"]
-    }
   },
   "exclude": [
     "node_modules"
