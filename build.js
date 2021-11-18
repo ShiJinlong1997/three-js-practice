@@ -1,7 +1,7 @@
 require('esbuild').build({
   entryPoints: ['src/index.ts'],
-  outfile: './js/index.js',
+  outdir: './js.',
   // minify: true,
   bundle: true,
-  tsconfig: 'tsconfig.json',
+  // tsconfig: 'tsconfig.json',
 });
